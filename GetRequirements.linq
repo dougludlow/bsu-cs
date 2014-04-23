@@ -1,7 +1,9 @@
 <Query Kind="Statements">
+  <Reference>&lt;ProgramFilesX86&gt;\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll</Reference>
   <NuGetReference>HtmlAgilityPack</NuGetReference>
-  <Namespace>System.Net</Namespace>
   <Namespace>HtmlAgilityPack</Namespace>
+  <Namespace>System.Net</Namespace>
+  <Namespace>System.Web.Helpers</Namespace>
 </Query>
 
 var html = new WebClient().DownloadString("http://registrar.boisestate.edu/undergraduate/course-catalog/cs/");
@@ -16,14 +18,15 @@ var classes = from c in content.Descendants("p")
 	let match = Regex.Match(text, pattern)
 	select new 
 	{
-		Prefix = match.Groups["prefix"].Value,
-		Number = match.Groups["number"].Value,
-		Title = match.Groups["title"].Value,
-		Credits = match.Groups["credits"].Value,
-		Semester = match.Groups["semester"].Value,
-		AdditionalInfo = match.Groups["info"] != null ? match.Groups["info"].Value : null,
-		Description = match.Groups["description"].Value,
-		Requisites = Regex.Matches(match.Groups["requisites"].Value, @"(\w+ \d{3}\w{0,1})").Cast<Match>().Select(m => m.Value)
+		id = match.Groups["prefix"].Value + " " + match.Groups["number"].Value,
+		prefix = match.Groups["prefix"].Value,
+		number = match.Groups["number"].Value,
+		title = match.Groups["title"].Value,
+		credits = match.Groups["credits"].Value,
+		semester = match.Groups["semester"].Value,
+		info = match.Groups["info"] != null ? match.Groups["info"].Value : null,
+		description = match.Groups["description"].Value,
+		requisites = Regex.Matches(match.Groups["requisites"].Value, @"(\w+ \d{3}\w{0,1})").Cast<Match>().Select(m => m.Value)
 	};
 
 Console.WriteLine(Json.Encode(classes));
