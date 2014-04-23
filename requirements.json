@@ -1,0 +1,399 @@
+[
+   {
+      "id":"CS 115",
+      "prefix":"CS",
+      "number":"115",
+      "title":"INTRODUCTION TO C",
+      "credits":"2-0-2",
+      "semester":"F/S",
+      "info":"",
+      "description":"An introduction to the syntactic and execution characteristics of C, including selection statements, loops, arrays, functions, and pointers. Construction, compilation, debugging, and execution of complete programs that implement given algorithms or solve simple problems. Previous programming experience is recommended, though not mandatory; C is not ideal as a first programming language.",
+      "requisites":[
+
+      ]
+   },
+   {
+      "id":"CS 117",
+      "prefix":"CS",
+      "number":"117",
+      "title":"INTRODUCTION TO C++",
+      "credits":"3-0-3",
+      "semester":"F/S",
+      "info":"",
+      "description":"An introductory course in computer programming, using the C++ language in a Unix environment. Topics include: scalar types; aggregate types; pointers and reference types; statements; expressions; functions; libraries; and a brief introduction to classes, objects, and overloading. Emphasis is on: development, compilation, debugging, and execution of complete programs implementing given algorithms for numerical, scientific, and engineering applications.",
+      "requisites":[
+         "MATH 143",
+         "MATH 144",
+         "MATH 147"
+      ]
+   },
+   {
+      "id":"CS 119",
+      "prefix":"CS",
+      "number":"119",
+      "title":"INTRODUCTION TO JAVA",
+      "credits":"2-0-2",
+      "semester":"F,S",
+      "info":"",
+      "description":"Syntactic and execution characteristics of Java. Translating simple algorithms into Java programs; coding, compiling, finding, and correcting errors, and executing the programs.",
+      "requisites":[
+         "MATH 108"
+      ]
+   },
+   {
+      "id":"CS 120",
+      "prefix":"CS",
+      "number":"120",
+      "title":"INTRODUCTION TO PROGRAMMING CONCEPTS",
+      "credits":"2-0-2",
+      "semester":"F,S",
+      "info":"",
+      "description":"Fundamental programming concepts using the Alice interactive 3-D programming system.",
+      "requisites":[
+         "MATH 108"
+      ]
+   },
+   {
+      "id":"CS 121",
+      "prefix":"CS",
+      "number":"121",
+      "title":"COMPUTER SCIENCE I",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Introduction to object oriented problem solving and programming. Software development process. Data and expressions, conditionals and loops, arrays and lists, and classes and interfaces. Introduction to graphical user interfaces and UML diagrams.",
+      "requisites":[
+         "MATH 170",
+         "CS 121L"
+      ]
+   },
+   {
+      "id":"CS 121L",
+      "prefix":"CS",
+      "number":"121L",
+      "title":"COMPUTER SCIENCE I LAB",
+      "credits":"0-3-1",
+      "semester":"F,S",
+      "info":"",
+      "description":"Lab work to accompany CS 121 Computer Science I.",
+      "requisites":[
+         "CS 121"
+      ]
+   },
+   {
+      "id":"CS 221",
+      "prefix":"CS",
+      "number":"221",
+      "title":"COMPUTER SCIENCE II",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Object-oriented design including inheritance, polymorphism, and dynamic binding. Graphical user interfaces. Recursion. Introduction to program correctness and testing/analysis of time/space requirements. Basic data structures: lists, collections, stacks, and queues. Basic searching and sorting.",
+      "requisites":[
+         "CS 121",
+         "CS 121L"
+      ]
+   },
+   {
+      "id":"CS 230",
+      "prefix":"CS",
+      "number":"230",
+      "title":"ETHICAL ISSUES IN COMPUTING",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"CID",
+      "description":"Privacy, intellectual property rights, computer crime, codes of conduct. Risks and liabilities of computer-based systems. Electronic information and free speech. Local and global impact of computing.",
+      "requisites":[
+         "COMM 101",
+         "CS 221",
+         "ENGL 202",
+         "PHIL 102"
+      ]
+   },
+   {
+      "id":"CS 253",
+      "prefix":"CS",
+      "number":"253",
+      "title":"INTRODUCTION TO SYSTEMS PROGRAMMING",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Structure of C programs, function pointers, variable argument lists, other generic programming techniques. Introduction to build systems, debugging techniques and process management. Basic systems programming including topics such as streams, buffers and pipes, system calls, multi-threading, and libraries for Linux and Microsoft Windows.",
+      "requisites":[
+         "CS 221"
+      ]
+   },
+   {
+      "id":"CS 321",
+      "prefix":"CS",
+      "number":"321",
+      "title":"DATA STRUCTURES",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Sorting, searching, and order statistics. Further data structures: trees, priority queues, dictionaries, balanced search trees, B-Trees, heaps, hash tables, and graphs.",
+      "requisites":[
+         "CS 221",
+         "MATH 189"
+      ]
+   },
+   {
+      "id":"CS 354",
+      "prefix":"CS",
+      "number":"354",
+      "title":"PROGRAMMING LANGUAGES",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Principles of programming languages: design, syntax, semantics, information binding, strings, arithmetic, input/output, recursion and extensibility.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 361",
+      "prefix":"CS",
+      "number":"361",
+      "title":"INTRODUCTION TO THE THEORY OF COMPUTATION",
+      "credits":"3-0-3",
+      "semester":"F,S",
+      "info":"",
+      "description":"Grammars, automata, Turing machines, decidability and complexity, language hierarchies, and normal forms. Reducibility concepts.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 401",
+      "prefix":"CS",
+      "number":"401",
+      "title":"INTRODUCTION TO WEB DEVELOPMENT",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"",
+      "description":"An introduction to the technologies used for client-side and server-side web development. Learn fundamentals behind competing web technologies, best practices for design and usability, and build rich, dynamic, n-tier secure web applications. Tools used will be mainly open source such as PHP, Javascript, XML, HTML, CSS, MySQL, and the Apache web server.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 410",
+      "prefix":"CS",
+      "number":"410",
+      "title":"DATABASES",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"",
+      "description":"Foundations of database management systems. Database models: relational, object and others. Database design: entity-relationship modeling, logical relational schema design, physical design, functional dependencies and normalization, and database tuning. Database application development using database interfaces embedded in host languages.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 421",
+      "prefix":"CS",
+      "number":"421",
+      "title":"ALGORITHMS",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"",
+      "description":"Introduction to design and analysis of algorithms. Asymptotic analysis and recurrences. Disjoint sets and amortized analysis. Dynamic programming, greedy algorithms, and graph algorithms. Tractability and introduction to NP-Completeness.",
+      "requisites":[
+         "CS 321",
+         "CS 361"
+      ]
+   },
+   {
+      "id":"CS 425",
+      "prefix":"CS",
+      "number":"425",
+      "title":"INTRODUCTION TO COMPUTER NETWORKS",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"Odd Years",
+      "description":"Concepts and implementation of TCP/IP Internetworking: link, network, and transport layer protocols. Application layer services. Wireless networking basics.",
+      "requisites":[
+         "CS 253",
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 430",
+      "prefix":"CS",
+      "number":"430",
+      "title":"PARALLEL COMPUTING",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"Even Years",
+      "description":"Models of parallel computation. Fundamental design patterns used in parallel algorithms: embarrassingly parallel, partitioning, divide and conquer, software pipelining, synchronous computations and load balancing. Implementation of parallel programs using MPI, GPUs and Map-Reduce on parallel clusters.",
+      "requisites":[
+         "CS 253",
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 441",
+      "prefix":"CS",
+      "number":"441",
+      "title":"(ECE 432) COMPUTER ARCHITECTURE",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"",
+      "description":"Structure of computer systems using processors, memories, input/output (I/O) devices as building blocks. Computer system instruction set design and implementation, including memory hierarchies, microprogramming, pipelining and multiprocessors. Issues and trade-offs involved in the design of computer system architectures with respect to the design of instruction sets. Applications of Hardware Description Languages (HDL) in the design of computer systems. May be taken for either CS or ECE credit, but not both.",
+      "requisites":[
+         "ECE 330"
+      ]
+   },
+   {
+      "id":"CS 450",
+      "prefix":"CS",
+      "number":"450",
+      "title":"PROGRAMMING LANGUAGE TRANSLATION",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"Odd years",
+      "description":"Theory/practice of formal-language translation and experience with Unix compiler-construction tools. Students work on significant projects.",
+      "requisites":[
+         "CS 253",
+         "CS 321",
+         "CS 354"
+      ]
+   },
+   {
+      "id":"CS 453",
+      "prefix":"CS",
+      "number":"453",
+      "title":"OPERATING SYSTEMS",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"",
+      "description":"Process management, concurrency, inter-process communication, synchronization, scheduling, memory management, file systems and security. Case studies of multiple operating systems.",
+      "requisites":[
+         "CS 230",
+         "CS 253",
+         "CS 321",
+         "ECE 330"
+      ]
+   },
+   {
+      "id":"CS 455",
+      "prefix":"CS",
+      "number":"455",
+      "title":"DISTRIBUTED SYSTEMS",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"Even years",
+      "description":"Principles and paradigms of distributed systems. Communication, processes, naming, synchronization, consistency and replication, fault tolerance and security. In-depth coverage of Remote Procedure Call (RPC), Remote Method Invocation (RMI) and socket programming. Survey of major distributed systems. Major software project.",
+      "requisites":[
+         "CS 253",
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 457",
+      "prefix":"CS",
+      "number":"457",
+      "title":"INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"Odd years",
+      "description":"Topics in artificial intelligence: informed search, game playing, constraint satisfaction and optimization, logical inference, probabilistic reasoning, and learning from observations. Significant project work demonstrating various AI techniques.",
+      "requisites":[
+         "CS 253",
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 464",
+      "prefix":"CS",
+      "number":"464",
+      "title":"COMPUTER GRAPHICS",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"Odd years",
+      "description":"Mathematics and programming techniques for computer graphics that cover raster graphics, transformations, rendering pipeline, clipping algorithms, lighting models, shading and shadows, texture mapping, antialiasing, ray tracing, non-photorealistic graphics. MATH 275 or MATH 301 recommended.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 471",
+      "prefix":"CS",
+      "number":"471",
+      "title":"SOFTWARE ENGINEERING",
+      "credits":"3-0-3",
+      "semester":"F",
+      "info":"",
+      "description":"A formal study of the software development process. Topics include: life cycle models, requirements definition, specification, design, implementation, validation, verification, maintenance, and reuse. Students work in small teams on significant projects. Creation of teams and specifications to be realized in CS 481.",
+      "requisites":[
+         "CS 230",
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 472",
+      "prefix":"CS",
+      "number":"472",
+      "title":"OBJECT-ORIENTED DESIGN PATTERNS",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"Even years",
+      "description":"Reviews object-oriented design principles, explains the goals and form of design patterns, and examines several well-known patterns.",
+      "requisites":[
+         "CS 321"
+      ]
+   },
+   {
+      "id":"CS 474",
+      "prefix":"CS",
+      "number":"474",
+      "title":"SOFTWARE QUALITY",
+      "credits":"3-0-3",
+      "semester":"S",
+      "info":"Even years",
+      "description":"Focus on two traditional verification techniques, testing and program analysis. Emphasis on structural adequacy criteria used in testing as well as experience with open-source tools used to generate test cases and obtain coverage measurements. Static analysis, including theoretical foundations, applications, and tools.",
+      "requisites":[
+         "CS 471"
+      ]
+   },
+   {
+      "id":"CS 481",
+      "prefix":"CS",
+      "number":"481",
+      "title":"SENIOR DESIGN PROJECT",
+      "credits":"1-4-3",
+      "semester":"S",
+      "info":"",
+      "description":"Capstone experience designing, implementing, and testing the software product specification defined during the previous semester in CS 471. Students report progress via documentation, meetings and demos. Class concludes with a presentation and demonstration of the completed product to students, faculty and project sponsors. Topics include teamwork, communication, ethics, project management, tools, design, verification and validation.",
+      "requisites":[
+         "CS 471"
+      ]
+   },
+   {
+      "id":"CS 488",
+      "prefix":"CS",
+      "number":"488",
+      "title":"SENIOR OUTCOME ASSESSMENT",
+      "credits":"0-0-0",
+      "semester":"F,S",
+      "info":"",
+      "description":"Required to graduate. In their last semester, senior students will take an outcome-assessment examination. (Pass/Fail.)",
+      "requisites":[
+
+      ]
+   },
+   {
+      "id":"CS 498",
+      "prefix":"CS",
+      "number":"498",
+      "title":"SEMINAR",
+      "credits":"1-0-1",
+      "semester":"S",
+      "info":"FF",
+      "description":"Research, writing, and an oral presentation of a current topic in computer science. (Pass/Fail.)",
+      "requisites":[
+         "CS 230",
+         "CS 321"
+      ]
+   }
+]
