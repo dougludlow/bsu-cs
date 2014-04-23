@@ -25,5 +25,7 @@ var classes = from c in content.Descendants("p")
 		Description = match.Groups["description"].Value,
 		Requisites = Regex.Matches(match.Groups["requisites"].Value, @"(\w+ \d{3}\w{0,1})").Cast<Match>().Select(m => m.Value)
 	};
+
+Console.WriteLine(Json.Encode(classes));
 	
 classes.Dump();
